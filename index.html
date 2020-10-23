@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    
+
+<div id="Login_Page">
+    <h1 class="text-center text-dark">Wellcome to XYZ Simple Bank</h1>
+    <div class="login-field">
+    <h3 class="form-body">Login</h3><br>
+    <label class="form-control bg-dark text-white">Email</label>
+    <input class="form-control" type="text" placeholder="Enter Your Email"><br>
+    <label class="form-control bg-dark text-white">Password</label>
+    <input class="form-control" type="password" placeholder="Enter Your Password"><br>
+    <button id="login_Button" class="btn btn-primary ">Enter</button>
+</div>
+</div>
+
+
+<div id="Transaction_Area">
+<div class="row"> 
+    <div class="col-md-4">
+        <h3 class="text-warning">Deposit</h3><br>
+        <h5 class="text-muted">BDT <span id="Deposit_Display">00</span></h5>
+
+    </div>
+    <div class="col-md-4">
+        <h3 class="text-warning">Withdraw</h3><br>
+        <h5 class="text-muted">BDT <span id="Withdraw_Display">00</span></h5>
+
+    </div>
+    <div class="col-md-4">
+        <h3 class="text-warning">Balance</h3><br>
+        <h5 class="text-muted">BDT <span id="Balance_Display">00</span></h5>
+
+
+    </div>
+</div>
+<div id="DW_Area">
+    <div class="row">
+        <div class="col-md-6">
+            <input id="input_Deposit" class="form-control" type="text"><br>
+            <button id="Deposit_Button" class="btn btn-warning">Deposit</button>
+
+        </div>
+        <div class="col-md-6">
+            <input id="input_Withdraw" class="form-control" type="text"><br>
+            <button id="Withdraw_Button" class="btn btn-warning">Withdraw</button>
+
+        </div>
+    </div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<script src="Javascript.js"></script>
+</body>
+</html>
